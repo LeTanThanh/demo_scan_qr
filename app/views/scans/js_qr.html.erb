@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>jsQR Demo</h1>
+
+  <canvas id="canvas"></canvas>
+</div>
+
+<%= stylesheet_link_tag "js_qr/js_qr", media: "all", "data-turbolinks-track": "reload" %>
+<%= javascript_include_tag "js_qr/js_qr", "data-turbolinks-track": "reload" %>
+
+<script type="text/javascript">
+  <%= render "js_qr.js" %>
+</script>
